@@ -2,7 +2,7 @@
 title: "Sobre"
 draft: false
 tags: ["Sobre"]
-description: Conheça L3n0m e seu lab!
+description: "Conheça L3n0m e seu lab."
 ---
 # Sobre L3n0m
 
