@@ -2,6 +2,7 @@
 title: "Introdução ao L3n0m’s Lab"
 draft: false
 tags: [portfolio, blog, introducao]
+description: "Apresentação oficial do l3n0m's lab."
 ---
 
 ## O que é o L3n0m’s Lab
