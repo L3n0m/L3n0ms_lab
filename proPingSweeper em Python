@@ -1,0 +1,75 @@
+---
+title: "PingSweeper em Python"
+date: 2025-01-01
+draft: false
+tags: ["concluído", "software", "python", "footprinting"]
+categories: ["projetos"]
+---
+
+## Introdução
+
+Este projeto consiste no desenvolvimento de um **PingSweeper** simples, criado como exercício prático para aprofundar o entendimento sobre redes, o protocolo ICMP e a fase de reconhecimento em segurança da informação.
+
+O objetivo principal foi um maior entendimento sobre scripts de reconhecmento e footprinting, focando na comunicação entre computadores e sua exploração em ambiente controlado.
+
+---
+
+## O que é um PingSweeper
+
+Um PingSweeper é uma técnica de reconhecimento utilizada para identificar quais dispositivos estão ativos dentro de um determinado intervalo de endereços IP.  
+Normalmente, isso é feito por meio do envio de requisições **ICMP Echo Request** e da análise das respostas recebidas.
+
+Essa técnica é comumente utilizada em fases iniciais de análise de redes, tanto para fins administrativos quanto para estudos em segurança da informação.
+
+---
+
+## Escopo do projeto
+
+### Escopo
+- Varredura de um intervalo IPv4 definido pelo usuário
+- Utilização de requisições ICMP (ping)
+- Execução sequencial das verificações
+- Retorno simples indicando hosts ativos
+
+### Limitações conhecidas
+- Hosts com ICMP bloqueado não respondem
+- Firewalls podem filtrar ou mascarar respostas
+- A ferramenta não diferencia tipos de dispositivos
+- Um host silencioso não significa necessariamente que esteja inativo
+
+---
+
+## Decisões técnicas
+
+- **Linguagem:** Python  
+  Escolhida pela simplicidade, legibilidade e facilidade de experimentação.
+
+- **Abordagem:**  
+  Utilização de chamadas ao sistema para envio de pacotes ICMP, evitando complexidade adicional neste estágio de aprendizado.
+
+- **Ambiente:**  
+  Testado em ambiente local e controlado, sem necessidade de privilégios administrativos elevados.
+
+Essas escolhas priorizaram clareza e aprendizado, em detrimento de performance ou recursos avançados.
+
+---
+
+## Implementação (visão geral)
+
+A ferramenta percorre um intervalo de endereços IP definido pelo usuário, enviando requisições ICMP individuais e analisando o retorno para determinar se o host está ativo.
+
+Exemplo simplificado da lógica utilizada:
+
+```python
+for ip in range(inicio, fim):
+    enviar_ping(ip)
+
+---
+
+## Referências e inspirações
+
+Durante o estudo e desenvolvimento deste projeto, materiais introdutórios e discussões da comunidade foram utilizados como apoio conceitual.
+
+Em especial, conteúdos do **Infosec Café** serviram como referência inicial para o entendimento de técnicas básicas de reconhecimento e footprinting em segurança da informação.
+
+- Infosec Café — https://infosec.cafe
