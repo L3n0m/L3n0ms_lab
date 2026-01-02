@@ -1,7 +1,6 @@
 ---
 title: "Introdução ao L3n0m’s Lab"
-date: 2025-28-12
-draft: true
+draft: false
 tags: [portfolio, blog, introducao]
 ---
 
