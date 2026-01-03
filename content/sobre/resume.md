@@ -10,7 +10,7 @@ Analista de Segurança da Informação | SOC Júnior
 
 📍 Gravataí, RS
 🔗 GitHub: https://github.com/L3n0m
-🔗 Blog: https://seusite.dev  
+🔗 Blog: https://seusite.dev ](https://L3n0m.github.io/l3n0ms-lab-webpg/
 🔗 LinkedIn: https://www.linkedin.com/in/cassiano-vargas-3b55a53a3/
 
 ---
