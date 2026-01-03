@@ -1,0 +1,19 @@
+baseURL = "https://L3n0m.github.io/l3n0ms-lab-webpg/"
+languageCode = "pt-br"
+title = "L3n0m's Lab"
+theme = "PaperMod"
+
+[params]
+  ShowReadingTime = true
+  ShowCodeCopyButtons = true
+
+[menu]
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Projetos"
+    url = "/projetos/"
+    weight = 2
